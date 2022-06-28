@@ -1,52 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <title>Word Guessing Game</title>
 </head>
-
-
 <body>
-
     <header>
-        <h1>Word Guessing Game</h1>
+        <h1>Welcome to my Game!</h1>
+        <button id="startGame">start!</button>
     </header>
-
     <main>
         <section>
-            <h2>_ _ a _ _ e e _</h2>
+            <h2 id="wordDisplay">_ _ n _ _ e e _</h2>
         </section>
-        <aisde>
+        <aside>
             <div id="scoreBox">
                 <p>wins <span id="winSpan">0</span></p>
                 <p>losses <span id="lossSpan">0</span></p>
+                <button id="resetScore">Reset</button>
             </div>
-            <div id="timebox">
-                <h2><span id="timeleft">10 </span>seconds left</h2>
+            <div id="timeBox">
+                <h2><span id="timeLeftSpan">10</span> seconds left</h2>
             </div>
-        </aisde>
-            
-
-        </div>
-
-        <div class id="high-Scores">
-            
-                <h2>High Score</h2>
-          
-                <h3>Name:</h3>          
-                <h3>Score:</h3>
-
-            </div>
-        </div>
-      
+        </aside>
     </main>
-
+    <script src="script.js"></script>
 </body>
-
-<script src="script.js"></script>
-
 </html>
